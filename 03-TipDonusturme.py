@@ -21,6 +21,7 @@ print((str(sayi2)))#20
 
 isim="Yusuf"
 yas=39
-print("Merhaba benim adim :"+isim+" ve yasim :"+yas)#Hata verir cunku yas int tipindedir str ilebirleştirilmeliddir
+#print("Merhaba benim adim :"+isim+" ve yasim :"+yas)#Hata verir cunku yas int tipindedir str ilebirleştirilmeliddir
 print("Merhaba benim adim :"+isim+" ve yasim :"+str(yas))#Doğru kullanım
 print(f"Merhaba benim ismim {isim}\n Benim yasim {yas}")#f string kullanımı
+
