@@ -1,7 +1,7 @@
 metin="Merhaba Dunya!!!!"
-yeniDefgisken=metin.split()
+yeniDefgisken=metin.split()#Liste verir==>['Merhaba', 'Dunya!!!!']
 print(yeniDefgisken)
-print(type(yeniDefgisken))
+print(type(yeniDefgisken))# type fonksiyonu ile deişkenin tipini öğrenziriz
 print(metin.upper())
 
 
@@ -20,5 +20,10 @@ metin=metin.lower()
 print(metin) #merhaba dunya!!!!
 print(metin[0])
 #metin(baslangıc:bitis:kacarKacar)
-print(metin[0:10:2]) #merha
+print(metin[0:10:2]) #mraad
+#iki nokta üst üste kullanılmazsa içine yazılan
+#indeks yazılır
+print(metin[:6]) #merhaba
+print(metin[8:]) #dunya!!!!
 
+print(len(metin))
