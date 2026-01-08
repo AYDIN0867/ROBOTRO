@@ -26,4 +26,11 @@ print(metin[0:10:2]) #mraad
 print(metin[:6]) #merhaba
 print(metin[8:]) #dunya!!!!
 
-print(len(metin))
+print(len(metin))#17#len fonksiyonu metin içindeki karakter sayısını verir
+
+#sonEleman=len(metin)-1
+#print(metin[sonEleman])#!
+print(metin[-1])#!#negatif indeksleme son elemanı verir
+
+
+print(metin[::-1])
