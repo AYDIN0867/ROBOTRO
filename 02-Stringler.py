@@ -34,3 +34,5 @@ print(metin[-1])#!#negatif indeksleme son elemanı verir
 
 
 print(metin[::-1])
+#!!!!aynud abahrem
+
