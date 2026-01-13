@@ -1,0 +1,2 @@
+def ekranaMerhabaYaz():
+    print("Merhaba")
