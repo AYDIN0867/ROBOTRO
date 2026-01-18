@@ -18,6 +18,8 @@ while True:
         
 
         # değişiklik yok diyor nasıl olur
+
+        print(randint(0,3))
         
       
 
