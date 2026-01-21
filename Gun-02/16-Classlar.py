@@ -19,5 +19,17 @@ insan.bilgileriYaz()
 
 metin="Hello Cuma"
 
-print(len(insan))
+print(len(insan)) #39
+
+class Yusuf(Insan):
+
+    def __init__(self,isim,soyisim,yas):
+      super().__init__(isim,soyisim,yas)
+
+    def ysfFonk(self):
+        print("bu metod yusufa ait")
+      
+ysf=Yusuf("aaa","bbb",10)
+ysf.ysfFonk()
+
 
