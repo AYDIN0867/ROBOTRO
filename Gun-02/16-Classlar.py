@@ -9,5 +9,15 @@ class Insan():
        print(f"Kullanıcının ad : {self.isim} {self.soyisim}. Yasi{self.yas}" ) 
 
 
+   
+   def __len__(self):
+      return self.yas
+
+
 insan=Insan("Yusuf","Kurnaz",39)
-insan.bilgileriYaz()         
+insan.bilgileriYaz() 
+
+metin="Hello Cuma"
+
+print(len(insan))
+
