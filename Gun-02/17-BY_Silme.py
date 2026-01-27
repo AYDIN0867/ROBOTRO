@@ -2,8 +2,13 @@ from rembg import remove
 
 
 
-input_file ="Gun-02\images.jpg"
-output_file="Gun-02\images.png"
+input_path ="Gun-02/images.jpg"
+output_path="Gun-02/images.png"
 
-output=remove(input_file)
-output.save(output_file)
+with open (input_path,'rb') as i:
+    with(output_path,'wb') as o:
+        input=i.read()
+        output=remove(input)
+        o.write(output)
+
+
