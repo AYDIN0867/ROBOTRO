@@ -32,7 +32,7 @@ def birden_cok_sayi_topla(*sayiar):
         toplam+=s
     print(toplam) 
 
-birden_cok_sayi_topla(10,20,30,5)        
+birden_cok_sayi_topla(10,20,30,5)#65 float olabilir ama double yok...        
 
 
 
