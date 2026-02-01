@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.onnx
+.u2net/
+.cache/
+*.png
+*.jpg
+# Virtual environment
+venv/
+Gun-02/venv/
+.env/

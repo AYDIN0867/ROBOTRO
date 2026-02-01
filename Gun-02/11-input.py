@@ -1,0 +1,2 @@
+input("Adiniz: ")
+print(isim)
