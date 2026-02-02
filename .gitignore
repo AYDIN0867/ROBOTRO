@@ -1,11 +1,24 @@
-__pycache__/
-*.pyc
-*.onnx
-.u2net/
-.cache/
-*.png
-*.jpg
 # Virtual environment
 venv/
-Gun-02/venv/
 .env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Downloads / outputs
+downloads/
+*.mp4
+*.mp3
+*.webm
+
+# OS
+.DS_Store
+Thumbs.db
+*.part
+
